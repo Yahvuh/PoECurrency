@@ -1,0 +1,22 @@
+{
+  "name": "poecurrency",
+  "version": "0.0.1",
+  "description": "A thing I made to see how much currency translate in game",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yahvuh/PoECurrency.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yahvuh/PoECurrency/issues"
+  },
+  "homepage": "https://github.com/Yahvuh/PoECurrency#readme",
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.1"
+  }
+}

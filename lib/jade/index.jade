@@ -1,0 +1,30 @@
+html
+	head
+		title PoECurrency
+	body
+		div.content
+			span Jewellers: 
+			span#jewellers
+			br
+			span Alteration: 
+			span#alteration
+			br
+			span Augmentation: 
+			span#augmentation
+			br
+			span Transmutation: 
+			span#transmutation
+			br
+			span Portal: 
+			span#portal
+			br
+			span Wisdom: 
+			span#wisdom
+			br
+			input(type="text", name='jewellersVal', id="jewellersVal")
+			button(type="button", onClick="doCalc()") Submit
+		div.info
+			span#error
+			br
+			p 
+	script(type="text/javascript", src="js/main.js").
